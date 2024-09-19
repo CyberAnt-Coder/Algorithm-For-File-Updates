@@ -5,7 +5,6 @@ import_file = "allow_list.txt"
 
 # create 'with' statement to open the file
 with open(import_file, "r") as file:
-  
   #use .read() to convert the file into a string 
   ip_addresses = file.read()
   
@@ -20,6 +19,7 @@ for element in remove_list:
 
 #convert 'ip_addresses' back into a string
 ip_addresses = "\n".join(ip_addresses)
+
 #create 'with' statement to rewrite the original file
 with open(import_file, "w") as file:
   file.write(ip_addresses)
