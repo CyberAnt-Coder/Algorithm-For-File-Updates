@@ -1,7 +1,7 @@
 # Algorithm-For-File-Updates
 
 ## Description
-For this project, we were required to update a file that identifies which employees can access restricted content based on their IP addresses. There is also a remove list which includes IP addresses of employees that must be removed from the first file. To make this easier, I was tasked with creating an algorithm that automates removing the unwanted IP addresses from the allow list. 
+For this project, I wrote an algorithm to update a file that identifies which employees can access restricted content based on their IP addresses. There is also a remove list which includes IP addresses of employees that must be removed from the first file. 
 <br />
 
 # Walkthrough:<br>
